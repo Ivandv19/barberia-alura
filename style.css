@@ -1,4 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body {
+
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -8,6 +17,8 @@ body {
 header {
     background: #BBBBBB;
     padding: 20px 0px;
+    width: 100%;
+    height: auto;
 }
 
 .caja {
@@ -43,7 +54,7 @@ nav a:hover {
 .productos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 50px 15px;
 
 }
 
@@ -105,7 +116,13 @@ footer {
 }
 
 form {
-    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+    gap: 10px;
 }
 
 form label,
@@ -151,7 +168,7 @@ form textarea {
 }
 
 table {
-    margin: 40px 40px;
+    margin: 15px auto;
 }
 
 thead {
@@ -270,13 +287,107 @@ th {
     margin: 1em auto;
 }
 
-@media screen and (max-width:480px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-    h1{
+    .principal {
+        margin: 0;
+        width: auto;
+
+    }
+
+    .mapa {
+        width: auto;
+
+    }
+
+    .mapa-contenido {
+        width: 100%;
+
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .caja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__logo {
+        width: auto;
+        height: auto;
+    }
+
+    .productos {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 25px 50px;
+    }
+
+    .productos li img {
+        width: 100%;
+        height: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .enviar{
+        width: 100%;
+        
+    }
+
+    .input-padron{
+        width: 100%;
+    }
+
+
+    form {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 50px;
+        margin: 0;
+    }
+
+    table {
+        margin: 50px auto;
+    }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    h1 {
         text-align: center;
     }
 
-    nav{
+    nav {
         position: static;
     }
 
@@ -288,8 +399,104 @@ th {
         width: auto;
     }
 
-    .lista-diferenciales, .imagen-diferenciales{
+    .lista-diferenciales,
+    .imagen-diferenciales {
         width: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    html {
+        width: 100%;
+    }
+
+    .caja {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container__logo {
+        width: auto;
+        height: auto;
+    }
+
+    .productos {
+        position: relative;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        padding: 25px 50px;
+
+    }
+
+    .productos li {
+        width: 100%;
+    }
+
+
+    .productos li img {
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 25px 50px;
+    
+    }
+
+    textarea{
+        width: 100%;
+    }
+
+    .enviar{
+        width: 100%;
+        
+    }
+
+    .input-padron{
+        width: 100%;
+    }
+
+    table {
+        margin: 50px auto;
     }
 
 }
