@@ -17,7 +17,7 @@ Este repositorio contiene el código fuente del sitio web de la Barbería Alura.
 
 El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace:
 
-[Barbería Alura Modelo](https://ivanmx19.github.io/barberia-alura/)
+[Barbería Alura Modelo](https://barberia-alura-bboi6tt8q-ivanmx19s-projects.vercel.app/)
 
 ## Cómo Visualizar el Sitio Localmente
 
