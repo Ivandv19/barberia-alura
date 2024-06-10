@@ -1,19 +1,19 @@
+/* Reseteo de márgenes y padding para todos los elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
+/* Estilos básicos del body */
 body {
-
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
 }
 
+/* Estilos del encabezado */
 header {
     background: #BBBBBB;
     padding: 20px 0px;
@@ -21,12 +21,14 @@ header {
     height: auto;
 }
 
+/* Caja contenedora centralizada */
 .caja {
     width: 940px;
     position: relative;
     margin: 0 auto;
 }
 
+/* Navegación y sus elementos */
 nav {
     position: absolute;
     top: 110px;
@@ -48,14 +50,13 @@ nav a {
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
-
 }
 
+/* Estilos para la lista de productos */
 .productos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 15px;
-
 }
 
 .productos li {
@@ -72,7 +73,6 @@ nav a:hover {
 
 .productos li:hover {
     border-color: #c78c19;
-
 }
 
 .productos li:active {
@@ -87,12 +87,10 @@ nav a:hover {
 
 .productos li:hover h2 {
     font-size: 33px;
-
 }
 
 .producto-descripcion {
     font-size: 18px;
-
 }
 
 .producto-precio {
@@ -101,20 +99,20 @@ nav a:hover {
     margin-top: 10px;
 }
 
+/* Estilos del pie de página */
 footer {
     text-align: center;
     background: url(imagenes/bg.jpg);
     padding: 40px;
-
 }
 
 .copyright {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px;
-
 }
 
+/* Estilos para el formulario */
 form {
     display: flex;
     flex-direction: column;
@@ -130,7 +128,6 @@ form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
-
 }
 
 .input-padron {
@@ -167,6 +164,7 @@ form textarea {
     transform: scale(1.2);
 }
 
+/* Estilos para la tabla */
 table {
     margin: 15px auto;
 }
@@ -183,8 +181,7 @@ th {
     padding: 8px 15px;
 }
 
-/*Aqui inicia el css para nuestra home*/
-
+/* Estilos específicos para la página de inicio */
 .banner {
     width: 100%;
 }
@@ -194,7 +191,6 @@ th {
     background: #FEFEFE;
     width: 940px;
     margin: 0 auto;
-
 }
 
 .titulo-principal {
@@ -203,7 +199,6 @@ th {
     margin: 0 0 1em;
     clear: left;
 }
-
 
 .principal p {
     margin: 0 0 1em;
@@ -215,7 +210,6 @@ th {
 
 .principal em {
     font-size: italic;
-
 }
 
 .utensilios {
@@ -226,7 +220,7 @@ th {
 
 .mapa {
     padding: 3em 0;
-    background: linear-gradient(#FEFEFE, #88888888)
+    background: linear-gradient(#FEFEFE, #88888888);
 }
 
 .mapa p {
@@ -237,7 +231,6 @@ th {
 .mapa-contenido {
     width: 940px;
     margin: 0 auto;
-
 }
 
 .diferenciales {
@@ -266,20 +259,16 @@ th {
 
 .items:first-child {
     font-weight: bold;
-
 }
 
 .imagen-diferenciales {
     width: 60%;
     transition: 400ms;
     box-shadow: 10px 10px 30px 15px #000000;
-
 }
 
 .imagen-diferenciales:hover {
     opacity: 0.3;
-
-
 }
 
 .video {
@@ -287,22 +276,19 @@ th {
     margin: 1em auto;
 }
 
+/* Estilos responsivos para pantallas entre 768px y 1024px */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
     .principal {
         margin: 0;
         width: auto;
-
     }
 
     .mapa {
         width: auto;
-
     }
 
     .mapa-contenido {
         width: 100%;
-
     }
 
     iframe {
@@ -349,19 +335,17 @@ th {
         height: 100%;
     }
 
-    textarea{
+    textarea {
         width: 100%;
     }
 
-    .enviar{
-        width: 100%;
-        
-    }
-
-    .input-padron{
+    .enviar {
         width: 100%;
     }
 
+    .input-padron {
+        width: 100%;
+    }
 
     form {
         display: flex;
@@ -377,12 +361,10 @@ th {
     table {
         margin: 50px auto;
     }
-
 }
 
-
+/* Estilos responsivos para pantallas menores a 767px */
 @media screen and (max-width: 767px) {
-
     h1 {
         text-align: center;
     }
@@ -458,13 +440,11 @@ th {
         flex-direction: column;
         gap: 15px;
         padding: 25px 50px;
-
     }
 
     .productos li {
         width: 100%;
     }
-
 
     .productos li img {
         width: 100%;
