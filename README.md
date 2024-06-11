@@ -1,49 +1,43 @@
-# Barbería Alura Modelo
+# Barbería Alura
 
-Este repositorio contiene el código fuente del sitio web de la Barbería Alura. El sitio está construido utilizando HTML y CSS, y proporciona información sobre la barbería, su ubicación y sus servicios.
+Barbería Alura es un sitio web diseñado para ofrecer información sobre los servicios de peluquería y cuidado de barba. Este sitio permite a los clientes descubrir los servicios, productos y contactarse fácilmente desde la comodidad de su navegador.
 
-## Contenido del Proyecto
+## Características
 
-- `index.html`: Página principal del sitio.
-- `productos.html`: Página con información sobre los productos.
-- `contacto.html`: Página de contacto.
-- `reset.css`: Archivo CSS para resetear los estilos predeterminados del navegador.
-- `style.css`: Archivo CSS principal con los estilos del sitio.
-- `imagenes/`: Directorio con las imágenes utilizadas en el sitio.
-- `banner/`: Directorio con las imágenes del banner.
-- `diferenciales/`: Directorio con las imágenes de los diferenciadores.
+- Explora una descripción completa de los servicios y productos ofrecidos.
+- Utiliza la página de contacto para enviar consultas y agendar citas.
+- Navega fácilmente por las diferentes secciones del sitio, como "Inicio", "Productos" y "Contacto".
+- Encuentra la ubicación de la barbería en Google Maps.
+- Disfruta de una interfaz intuitiva y fácil de usar.
 
-## Despliegue
+## Uso
 
-El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace:
+1. **Explora el contenido:** Navega a través de las diferentes secciones del sitio web, como "Inicio", "Productos" y "Contacto".
+2. **Formulario de contacto:** Utiliza el formulario en la página de contacto para enviar consultas o agendar una cita.
+3. **Ver la ubicación:** Consulta la sección de ubicación para ver dónde está ubicada la barbería en Google Maps.
 
-[Barbería Alura Modelo](https://barberia-alura-bboi6tt8q-ivanmx19s-projects.vercel.app/)
-
-## Cómo Visualizar el Sitio Localmente
-
-Para ver el sitio web en tu navegador local:
-1. Clona este repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador web.
-
-## Personalización
-
-Para personalizar el sitio web:
-- Modifica los archivos CSS (`reset.css` y `style.css`) para cambiar los estilos.
-- Actualiza el contenido HTML en los archivos correspondientes (`index.html`, `productos.html`, `contacto.html`).
-
-## Tecnologías Usadas
+## Tecnologías utilizadas
 
 - HTML5
 - CSS3
-- [Google Fonts](https://fonts.googleapis.com)
-- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/start)
-- [YouTube Embed](https://www.youtube.com/)
-- [Vercel](https://vercel.com) para el despliegue
+- JavaScript
+- Google Fonts (para tipografías)
+- Google Maps (para integración de mapas)
 
-## Créditos
+## Instalación
 
-Este sitio web fue desarrollado como parte de un proyecto de ejemplo para la Barbería Alura por **Alura Latam** e **Iván Cruz**.
+1. Clona este repositorio en tu máquina local.
+   
+##Créditos
+- Este proyecto fue desarrollado como parte de un ejercicio de desarrollo web.
+- Las imágenes utilizadas fueron obtenidas de recursos gratuitos de Internet.
+- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
+- Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
-## Licencia
+##Despliegue
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Barberi Alura](https://barberia-alura-gilt.vercel.app/).
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+##Licencia
+Este proyecto está bajo la Licencia MIT.
+
+
