@@ -29,7 +29,7 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 
 1. Clona este repositorio en tu máquina local.
    
-##Créditos
+## Créditos
 - Este proyecto fue desarrollado como parte de un ejercicio de desarrollo web.
 - Las imágenes utilizadas fueron obtenidas de recursos gratuitos de Internet.
 - Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
