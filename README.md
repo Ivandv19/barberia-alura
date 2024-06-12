@@ -35,10 +35,10 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 - Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
 - Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
-##Despliegue
-El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Barberi Alura](https://barberia-alura-gilt.vercel.app/).
+## Despliegue
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Barberia Alura](https://barberia-alura-gilt.vercel.app/).
 
-##Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT.
 
 
