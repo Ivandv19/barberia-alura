@@ -28,17 +28,18 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 ## Instalación
 
 1. Clona este repositorio en tu máquina local.
-   
+
 ## Créditos
+
 - Este proyecto fue desarrollado como parte de un ejercicio de desarrollo web.
 - Las imágenes utilizadas fueron obtenidas de recursos gratuitos de Internet.
 - Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
 - Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
 ## Despliegue
+
 El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [Barberia Alura](https://barberia-alura-gilt.vercel.app/).
 
 ## Licencia
+
 Este proyecto está bajo la Licencia MIT.
-
-

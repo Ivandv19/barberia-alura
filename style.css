@@ -28,6 +28,8 @@ header {
     margin: 0 auto;
 }
 
+
+
 /* Navegación y sus elementos */
 nav {
     position: absolute;
@@ -241,7 +243,7 @@ th {
 .contenido-diferenciales {
     width: 640px;
     margin: 0 auto;
-    
+
 }
 
 .lista-diferenciales {
@@ -262,7 +264,7 @@ th {
     font-weight: bold;
 }
 
-.container__img{
+.container__img {
     width: 560px;
     margin: 2em auto;
 }
@@ -281,7 +283,8 @@ th {
     width: 560px;
     margin: 1em auto;
 }
-.creditos{
+
+.creditos {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px;
@@ -318,7 +321,7 @@ th {
         right: 0;
     }
 
-    .contenido-diferenciales{
+    .contenido-diferenciales {
         display: flex;
         flex-direction: column;
         gap: 25px;
@@ -326,18 +329,18 @@ th {
         justify-content: center;
     }
 
-    .container__img{
+    .container__img {
         width: 100%;
         margin: 2em auto;
     }
-    
+
     .imagen-diferenciales {
         width: 100%;
         transition: 400ms;
         box-shadow: 10px 10px 30px 15px #000000;
     }
 
-    .video{
+    .video {
         width: 100%;
         margin: 0;
         transition: 400ms;
@@ -447,36 +450,38 @@ th {
         width: 100%;
     }
 
-    .principal{
+    .principal {
         padding: 48px 20px;
     }
-    .mapa{
-        padding: 48px 20px;
 
-    }
-    .diferenciales{
+    .mapa {
         padding: 48px 20px;
 
     }
 
-    .contenido-diferenciales{
+    .diferenciales {
+        padding: 48px 20px;
+
+    }
+
+    .contenido-diferenciales {
         display: flex;
         flex-direction: column;
         gap: 25px;
     }
 
-    .container__img{
+    .container__img {
         width: 100%;
         margin: 0;
     }
-    
+
     .imagen-diferenciales {
         width: 100%;
         transition: 400ms;
         box-shadow: 10px 10px 30px 15px #000000;
     }
 
-    .video{
+    .video {
         margin: 0;
         transition: 400ms;
     }
@@ -531,19 +536,19 @@ th {
         flex-wrap: wrap;
         gap: 15px;
         padding: 48px 20px;
-    
+
     }
 
-    textarea{
+    textarea {
         width: 100%;
     }
 
-    .enviar{
+    .enviar {
         width: 100%;
-        
+
     }
 
-    .input-padron{
+    .input-padron {
         width: 100%;
     }
 

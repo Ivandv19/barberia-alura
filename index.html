@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura el viewport para que sea responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura el viewport para que sea responsivo -->
     <title>Barberia Alura Modelo</title> <!-- Título de la página -->
-    
+
     <!-- Vincula los archivos CSS externos -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- Preconexión a Google Fonts para mejorar la carga de las fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,9 @@
     <header>
         <div class="caja">
             <!-- Logo de la barbería -->
-            <h1><img src="imagenes/logo.png" alt="logo"></h1>
+            <div class="logo__container">
+                <img src="imagenes/logo.png" alt="logo">
+            </div>
             <!-- Menú de navegación -->
             <nav>
                 <ul>
@@ -43,7 +46,7 @@
         <section class="principal">
             <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
             <img class="utensilios" src="imagenes/utensilios[1].jpg" alt="utensilios">
-            
+
             <!-- Descripción de la barbería -->
             <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de
                 mejor para su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y
@@ -63,7 +66,7 @@
         <section class="mapa">
             <h3 class="titulo-principal">Nuestra ubicación</h3>
             <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
-            
+
             <!-- Integración de un mapa de Google Maps -->
             <div class="mapa-contenido">
                 <iframe
@@ -76,7 +79,7 @@
         <!-- Sección que destaca los puntos diferenciadores de la barbería -->
         <section class="diferenciales">
             <h3 class="titulo-principal">Diferenciales</h3>
-            
+
             <div class="contenido-diferenciales">
                 <!-- Lista de puntos diferenciadores -->
                 <ul class="lista-diferenciales">
@@ -87,17 +90,18 @@
                     <li class="items">Puntualidad</li>
                     <li class="items">Limpieza</li>
                 </ul>
-                
+
                 <!-- Imagen relacionada con los diferenciadores -->
-                 <div class="container__img">
+                <div class="container__img">
                     <img src="diferenciales/diferenciales.jpg" class="imagen-diferenciales" alt="Diferenciales">
-                 </div>
-               
-                
+                </div>
+
+
                 <!-- Video incrustado de YouTube -->
                 <div class="video">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY?si=46wfJj5j0EClTOYt"
-                        title="YouTube video player" frameborder="0"
+                    <iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/wcVVXUV0YUY?si=46wfJj5j0EClTOYt" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
@@ -109,7 +113,8 @@
     <footer>
         <img src="imagenes/logo-blanco.png" alt="">
         <p class="copyright">&copy; Copyright Barberia Alura - 2020</p>
-        <p class="creditos ">Desarrollado por Ivan Cruz - 2024 🇲🇽 <br> Estudiante ONE (G6) - Oracle Next Education </p>
+        <p class="creditos ">Desarrollado por Ivan Cruz - 2024 🇲🇽 <br> Estudiante ONE (G6) - Oracle Next Education
+        </p>
     </footer>
 
 </body>
