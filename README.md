@@ -11,7 +11,7 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 - Disfruta de una interfaz intuitiva y fácil de usar.
 
 ## Uso
-
+1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://barberia-alura-gilt.vercel.app/).
 1. **Explora el contenido:** Navega a través de las diferentes secciones del sitio web, como "Inicio", "Productos" y "Contacto".
 2. **Formulario de contacto:** Utiliza el formulario en la página de contacto para enviar consultas o agendar una cita.
 3. **Ver la ubicación:** Consulta la sección de ubicación para ver dónde está ubicada la barbería en Google Maps.
@@ -21,13 +21,17 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 - HTML5
 - CSS3
 - JavaScript
-- [Google Fonts](https://fonts.googleapis.com)
 - [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/start)
 - [YouTube Embed](https://www.youtube.com/)
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local.
+1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
+```bash
+https://github.com/IvandevI9/challenge-encriptador.git
+```
+2. Abre el archivo `index.html` en tu navegador web.
+
 
 ## Créditos
 
