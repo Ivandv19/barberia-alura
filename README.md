@@ -11,7 +11,7 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 - Disfruta de una interfaz intuitiva y fácil de usar.
 
 ## Uso
-1. **Visualización del Proyecto:** Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://barberia-alura-gilt.vercel.app/).
+1. **Visualización del Proyecto:** Para visualizar el proyecto, sigue los pasos que se encuentran en la sección [Instalación](#instalación) o visita el enlace desplegado en [Vercel](https://barberia-alura-gilt.vercel.app/).
 2. **Explora el contenido:** Navega a través de las diferentes secciones del sitio web, como "Inicio", "Productos" y "Contacto".
 3. **Formulario de contacto:** Utiliza el formulario en la página de contacto para enviar consultas o agendar una cita.
 4. **Ver la ubicación:** Consulta la sección de ubicación para ver dónde está ubicada la barbería en Google Maps.
