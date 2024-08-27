@@ -28,7 +28,7 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 ```bash
-https://github.com/IvandevI9/challenge-encriptador.git
+https://github.com/IvandevI9/barberia-alura.git
 ```
 2. Abre el archivo `index.html` en tu navegador web.
 
