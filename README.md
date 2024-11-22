@@ -21,8 +21,8 @@ Barbería Alura es un sitio web diseñado para ofrecer información sobre los se
 - HTML5
 - CSS3
 - JavaScript
-- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/start)
-- [YouTube Embed](https://www.youtube.com/)
+- Google Maps Embed API
+- YouTube Embed
 
 ## Instalación
 
